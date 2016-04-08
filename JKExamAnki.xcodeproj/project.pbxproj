@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93B1A281CB79C3F00E5A177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A271CB79C3F00E5A177 /* main.m */; };
+		A93B1A2B1CB79C3F00E5A177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A2A1CB79C3F00E5A177 /* AppDelegate.m */; };
+		A93B1A2E1CB79C3F00E5A177 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A2D1CB79C3F00E5A177 /* ViewController.m */; };
+		A93B1A311CB79C3F00E5A177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93B1A2F1CB79C3F00E5A177 /* Main.storyboard */; };
+		A93B1A331CB79C3F00E5A177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93B1A321CB79C3F00E5A177 /* Assets.xcassets */; };
+		A93B1A361CB79C3F00E5A177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93B1A341CB79C3F00E5A177 /* LaunchScreen.storyboard */; };
+		A93B1A411CB79C4000E5A177 /* JKExamAnkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A401CB79C4000E5A177 /* JKExamAnkiTests.m */; };
+		A93B1A4C1CB79C4000E5A177 /* JKExamAnkiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A4B1CB79C4000E5A177 /* JKExamAnkiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A93B1A3D1CB79C4000E5A177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93B1A1B1CB79C3F00E5A177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93B1A221CB79C3F00E5A177;
+			remoteInfo = JKExamAnki;
+		};
+		A93B1A481CB79C4000E5A177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93B1A1B1CB79C3F00E5A177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93B1A221CB79C3F00E5A177;
+			remoteInfo = JKExamAnki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A93B1A231CB79C3F00E5A177 /* JKExamAnki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKExamAnki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93B1A271CB79C3F00E5A177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A93B1A291CB79C3F00E5A177 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A93B1A2A1CB79C3F00E5A177 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A93B1A2C1CB79C3F00E5A177 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A93B1A2D1CB79C3F00E5A177 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A93B1A301CB79C3F00E5A177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A93B1A321CB79C3F00E5A177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93B1A351CB79C3F00E5A177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A93B1A371CB79C3F00E5A177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93B1A3C1CB79C4000E5A177 /* JKExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93B1A401CB79C4000E5A177 /* JKExamAnkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKExamAnkiTests.m; sourceTree = "<group>"; };
+		A93B1A421CB79C4000E5A177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93B1A471CB79C4000E5A177 /* JKExamAnkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKExamAnkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93B1A4B1CB79C4000E5A177 /* JKExamAnkiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKExamAnkiUITests.m; sourceTree = "<group>"; };
+		A93B1A4D1CB79C4000E5A177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93B1A201CB79C3F00E5A177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93B1A391CB79C4000E5A177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93B1A441CB79C4000E5A177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93B1A1A1CB79C3F00E5A177 = {
+			isa = PBXGroup;
+			children = (
+				A93B1A251CB79C3F00E5A177 /* JKExamAnki */,
+				A93B1A3F1CB79C4000E5A177 /* JKExamAnkiTests */,
+				A93B1A4A1CB79C4000E5A177 /* JKExamAnkiUITests */,
+				A93B1A241CB79C3F00E5A177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A93B1A241CB79C3F00E5A177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93B1A231CB79C3F00E5A177 /* JKExamAnki.app */,
+				A93B1A3C1CB79C4000E5A177 /* JKExamAnkiTests.xctest */,
+				A93B1A471CB79C4000E5A177 /* JKExamAnkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93B1A251CB79C3F00E5A177 /* JKExamAnki */ = {
+			isa = PBXGroup;
+			children = (
+				A93B1A291CB79C3F00E5A177 /* AppDelegate.h */,
+				A93B1A2A1CB79C3F00E5A177 /* AppDelegate.m */,
+				A93B1A2C1CB79C3F00E5A177 /* ViewController.h */,
+				A93B1A2D1CB79C3F00E5A177 /* ViewController.m */,
+				A93B1A2F1CB79C3F00E5A177 /* Main.storyboard */,
+				A93B1A321CB79C3F00E5A177 /* Assets.xcassets */,
+				A93B1A341CB79C3F00E5A177 /* LaunchScreen.storyboard */,
+				A93B1A371CB79C3F00E5A177 /* Info.plist */,
+				A93B1A261CB79C3F00E5A177 /* Supporting Files */,
+			);
+			path = JKExamAnki;
+			sourceTree = "<group>";
+		};
+		A93B1A261CB79C3F00E5A177 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A93B1A271CB79C3F00E5A177 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A93B1A3F1CB79C4000E5A177 /* JKExamAnkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A93B1A401CB79C4000E5A177 /* JKExamAnkiTests.m */,
+				A93B1A421CB79C4000E5A177 /* Info.plist */,
+			);
+			path = JKExamAnkiTests;
+			sourceTree = "<group>";
+		};
+		A93B1A4A1CB79C4000E5A177 /* JKExamAnkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A93B1A4B1CB79C4000E5A177 /* JKExamAnkiUITests.m */,
+				A93B1A4D1CB79C4000E5A177 /* Info.plist */,
+			);
+			path = JKExamAnkiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A93B1A221CB79C3F00E5A177 /* JKExamAnki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93B1A501CB79C4000E5A177 /* Build configuration list for PBXNativeTarget "JKExamAnki" */;
+			buildPhases = (
+				A93B1A1F1CB79C3F00E5A177 /* Sources */,
+				A93B1A201CB79C3F00E5A177 /* Frameworks */,
+				A93B1A211CB79C3F00E5A177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKExamAnki;
+			productName = JKExamAnki;
+			productReference = A93B1A231CB79C3F00E5A177 /* JKExamAnki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A93B1A3B1CB79C4000E5A177 /* JKExamAnkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93B1A531CB79C4000E5A177 /* Build configuration list for PBXNativeTarget "JKExamAnkiTests" */;
+			buildPhases = (
+				A93B1A381CB79C4000E5A177 /* Sources */,
+				A93B1A391CB79C4000E5A177 /* Frameworks */,
+				A93B1A3A1CB79C4000E5A177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93B1A3E1CB79C4000E5A177 /* PBXTargetDependency */,
+			);
+			name = JKExamAnkiTests;
+			productName = JKExamAnkiTests;
+			productReference = A93B1A3C1CB79C4000E5A177 /* JKExamAnkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A93B1A461CB79C4000E5A177 /* JKExamAnkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93B1A561CB79C4000E5A177 /* Build configuration list for PBXNativeTarget "JKExamAnkiUITests" */;
+			buildPhases = (
+				A93B1A431CB79C4000E5A177 /* Sources */,
+				A93B1A441CB79C4000E5A177 /* Frameworks */,
+				A93B1A451CB79C4000E5A177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93B1A491CB79C4000E5A177 /* PBXTargetDependency */,
+			);
+			name = JKExamAnkiUITests;
+			productName = JKExamAnkiUITests;
+			productReference = A93B1A471CB79C4000E5A177 /* JKExamAnkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93B1A1B1CB79C3F00E5A177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = trainer;
+				TargetAttributes = {
+					A93B1A221CB79C3F00E5A177 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A93B1A3B1CB79C4000E5A177 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A93B1A221CB79C3F00E5A177;
+					};
+					A93B1A461CB79C4000E5A177 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A93B1A221CB79C3F00E5A177;
+					};
+				};
+			};
+			buildConfigurationList = A93B1A1E1CB79C3F00E5A177 /* Build configuration list for PBXProject "JKExamAnki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A93B1A1A1CB79C3F00E5A177;
+			productRefGroup = A93B1A241CB79C3F00E5A177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93B1A221CB79C3F00E5A177 /* JKExamAnki */,
+				A93B1A3B1CB79C4000E5A177 /* JKExamAnkiTests */,
+				A93B1A461CB79C4000E5A177 /* JKExamAnkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A93B1A211CB79C3F00E5A177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93B1A361CB79C3F00E5A177 /* LaunchScreen.storyboard in Resources */,
+				A93B1A331CB79C3F00E5A177 /* Assets.xcassets in Resources */,
+				A93B1A311CB79C3F00E5A177 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93B1A3A1CB79C4000E5A177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93B1A451CB79C4000E5A177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93B1A1F1CB79C3F00E5A177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93B1A2E1CB79C3F00E5A177 /* ViewController.m in Sources */,
+				A93B1A2B1CB79C3F00E5A177 /* AppDelegate.m in Sources */,
+				A93B1A281CB79C3F00E5A177 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93B1A381CB79C4000E5A177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93B1A411CB79C4000E5A177 /* JKExamAnkiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93B1A431CB79C4000E5A177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93B1A4C1CB79C4000E5A177 /* JKExamAnkiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A93B1A3E1CB79C4000E5A177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93B1A221CB79C3F00E5A177 /* JKExamAnki */;
+			targetProxy = A93B1A3D1CB79C4000E5A177 /* PBXContainerItemProxy */;
+		};
+		A93B1A491CB79C4000E5A177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93B1A221CB79C3F00E5A177 /* JKExamAnki */;
+			targetProxy = A93B1A481CB79C4000E5A177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A93B1A2F1CB79C3F00E5A177 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93B1A301CB79C3F00E5A177 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A93B1A341CB79C3F00E5A177 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93B1A351CB79C3F00E5A177 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A93B1A4E1CB79C4000E5A177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A93B1A4F1CB79C4000E5A177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A93B1A511CB79C4000E5A177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKExamAnki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A93B1A521CB79C4000E5A177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKExamAnki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A93B1A541CB79C4000E5A177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKExamAnki.app/JKExamAnki";
+			};
+			name = Debug;
+		};
+		A93B1A551CB79C4000E5A177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKExamAnki.app/JKExamAnki";
+			};
+			name = Release;
+		};
+		A93B1A571CB79C4000E5A177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKExamAnkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKExamAnki;
+			};
+			name = Debug;
+		};
+		A93B1A581CB79C4000E5A177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKExamAnkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKExamAnki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93B1A1E1CB79C3F00E5A177 /* Build configuration list for PBXProject "JKExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93B1A4E1CB79C4000E5A177 /* Debug */,
+				A93B1A4F1CB79C4000E5A177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93B1A501CB79C4000E5A177 /* Build configuration list for PBXNativeTarget "JKExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93B1A511CB79C4000E5A177 /* Debug */,
+				A93B1A521CB79C4000E5A177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A93B1A531CB79C4000E5A177 /* Build configuration list for PBXNativeTarget "JKExamAnkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93B1A541CB79C4000E5A177 /* Debug */,
+				A93B1A551CB79C4000E5A177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A93B1A561CB79C4000E5A177 /* Build configuration list for PBXNativeTarget "JKExamAnkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93B1A571CB79C4000E5A177 /* Debug */,
+				A93B1A581CB79C4000E5A177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A93B1A1B1CB79C3F00E5A177 /* Project object */;
+}
