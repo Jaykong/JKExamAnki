@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		A93B1A281CB79C3F00E5A177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A271CB79C3F00E5A177 /* main.m */; };
 		A93B1A2B1CB79C3F00E5A177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A2A1CB79C3F00E5A177 /* AppDelegate.m */; };
-		A93B1A2E1CB79C3F00E5A177 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A2D1CB79C3F00E5A177 /* ViewController.m */; };
 		A93B1A311CB79C3F00E5A177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93B1A2F1CB79C3F00E5A177 /* Main.storyboard */; };
 		A93B1A331CB79C3F00E5A177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93B1A321CB79C3F00E5A177 /* Assets.xcassets */; };
 		A93B1A361CB79C3F00E5A177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93B1A341CB79C3F00E5A177 /* LaunchScreen.storyboard */; };
 		A93B1A411CB79C4000E5A177 /* JKExamAnkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A401CB79C4000E5A177 /* JKExamAnkiTests.m */; };
 		A93B1A4C1CB79C4000E5A177 /* JKExamAnkiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A4B1CB79C4000E5A177 /* JKExamAnkiUITests.m */; };
+		A93B1A5C1CB7A17700E5A177 /* EAPaperInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A5B1CB7A17700E5A177 /* EAPaperInfoViewController.m */; };
+		A93B1A5F1CB7A19600E5A177 /* EABookmarkQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A5E1CB7A19600E5A177 /* EABookmarkQuestionViewController.m */; };
+		A93B1A621CB7A1A800E5A177 /* EAWrongQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A611CB7A1A800E5A177 /* EAWrongQuestionViewController.m */; };
+		A93B1A651CB7A1B800E5A177 /* EAFlashCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A641CB7A1B800E5A177 /* EAFlashCardViewController.m */; };
+		A93B1A681CB7A1C500E5A177 /* EAFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A671CB7A1C500E5A177 /* EAFeedbackViewController.m */; };
+		A93B1A6B1CB7A1D100E5A177 /* EAAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A6A1CB7A1D100E5A177 /* EAAboutViewController.m */; };
+		A93B1A6E1CB7A1DF00E5A177 /* EAShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A6D1CB7A1DF00E5A177 /* EAShareViewController.m */; };
+		A93B1A711CB7A1EE00E5A177 /* EAImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B1A701CB7A1EE00E5A177 /* EAImportViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,6 @@
 		A93B1A271CB79C3F00E5A177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A93B1A291CB79C3F00E5A177 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A93B1A2A1CB79C3F00E5A177 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A93B1A2C1CB79C3F00E5A177 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A93B1A2D1CB79C3F00E5A177 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A93B1A301CB79C3F00E5A177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A93B1A321CB79C3F00E5A177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A93B1A351CB79C3F00E5A177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,22 @@
 		A93B1A471CB79C4000E5A177 /* JKExamAnkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKExamAnkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93B1A4B1CB79C4000E5A177 /* JKExamAnkiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKExamAnkiUITests.m; sourceTree = "<group>"; };
 		A93B1A4D1CB79C4000E5A177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93B1A5A1CB7A17700E5A177 /* EAPaperInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAPaperInfoViewController.h; sourceTree = "<group>"; };
+		A93B1A5B1CB7A17700E5A177 /* EAPaperInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAPaperInfoViewController.m; sourceTree = "<group>"; };
+		A93B1A5D1CB7A19600E5A177 /* EABookmarkQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EABookmarkQuestionViewController.h; sourceTree = "<group>"; };
+		A93B1A5E1CB7A19600E5A177 /* EABookmarkQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EABookmarkQuestionViewController.m; sourceTree = "<group>"; };
+		A93B1A601CB7A1A800E5A177 /* EAWrongQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAWrongQuestionViewController.h; sourceTree = "<group>"; };
+		A93B1A611CB7A1A800E5A177 /* EAWrongQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAWrongQuestionViewController.m; sourceTree = "<group>"; };
+		A93B1A631CB7A1B800E5A177 /* EAFlashCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAFlashCardViewController.h; sourceTree = "<group>"; };
+		A93B1A641CB7A1B800E5A177 /* EAFlashCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAFlashCardViewController.m; sourceTree = "<group>"; };
+		A93B1A661CB7A1C500E5A177 /* EAFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAFeedbackViewController.h; sourceTree = "<group>"; };
+		A93B1A671CB7A1C500E5A177 /* EAFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAFeedbackViewController.m; sourceTree = "<group>"; };
+		A93B1A691CB7A1D100E5A177 /* EAAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAboutViewController.h; sourceTree = "<group>"; };
+		A93B1A6A1CB7A1D100E5A177 /* EAAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAboutViewController.m; sourceTree = "<group>"; };
+		A93B1A6C1CB7A1DF00E5A177 /* EAShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAShareViewController.h; sourceTree = "<group>"; };
+		A93B1A6D1CB7A1DF00E5A177 /* EAShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAShareViewController.m; sourceTree = "<group>"; };
+		A93B1A6F1CB7A1EE00E5A177 /* EAImportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAImportViewController.h; sourceTree = "<group>"; };
+		A93B1A701CB7A1EE00E5A177 /* EAImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAImportViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +124,7 @@
 			children = (
 				A93B1A291CB79C3F00E5A177 /* AppDelegate.h */,
 				A93B1A2A1CB79C3F00E5A177 /* AppDelegate.m */,
-				A93B1A2C1CB79C3F00E5A177 /* ViewController.h */,
-				A93B1A2D1CB79C3F00E5A177 /* ViewController.m */,
+				A93B1A591CB7A13600E5A177 /* ViewControllers */,
 				A93B1A2F1CB79C3F00E5A177 /* Main.storyboard */,
 				A93B1A321CB79C3F00E5A177 /* Assets.xcassets */,
 				A93B1A341CB79C3F00E5A177 /* LaunchScreen.storyboard */,
@@ -138,6 +158,29 @@
 				A93B1A4D1CB79C4000E5A177 /* Info.plist */,
 			);
 			path = JKExamAnkiUITests;
+			sourceTree = "<group>";
+		};
+		A93B1A591CB7A13600E5A177 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A93B1A5A1CB7A17700E5A177 /* EAPaperInfoViewController.h */,
+				A93B1A5B1CB7A17700E5A177 /* EAPaperInfoViewController.m */,
+				A93B1A5D1CB7A19600E5A177 /* EABookmarkQuestionViewController.h */,
+				A93B1A5E1CB7A19600E5A177 /* EABookmarkQuestionViewController.m */,
+				A93B1A601CB7A1A800E5A177 /* EAWrongQuestionViewController.h */,
+				A93B1A611CB7A1A800E5A177 /* EAWrongQuestionViewController.m */,
+				A93B1A631CB7A1B800E5A177 /* EAFlashCardViewController.h */,
+				A93B1A641CB7A1B800E5A177 /* EAFlashCardViewController.m */,
+				A93B1A661CB7A1C500E5A177 /* EAFeedbackViewController.h */,
+				A93B1A671CB7A1C500E5A177 /* EAFeedbackViewController.m */,
+				A93B1A691CB7A1D100E5A177 /* EAAboutViewController.h */,
+				A93B1A6A1CB7A1D100E5A177 /* EAAboutViewController.m */,
+				A93B1A6C1CB7A1DF00E5A177 /* EAShareViewController.h */,
+				A93B1A6D1CB7A1DF00E5A177 /* EAShareViewController.m */,
+				A93B1A6F1CB7A1EE00E5A177 /* EAImportViewController.h */,
+				A93B1A701CB7A1EE00E5A177 /* EAImportViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A93B1A2E1CB79C3F00E5A177 /* ViewController.m in Sources */,
+				A93B1A5F1CB7A19600E5A177 /* EABookmarkQuestionViewController.m in Sources */,
 				A93B1A2B1CB79C3F00E5A177 /* AppDelegate.m in Sources */,
+				A93B1A6B1CB7A1D100E5A177 /* EAAboutViewController.m in Sources */,
+				A93B1A621CB7A1A800E5A177 /* EAWrongQuestionViewController.m in Sources */,
+				A93B1A681CB7A1C500E5A177 /* EAFeedbackViewController.m in Sources */,
+				A93B1A711CB7A1EE00E5A177 /* EAImportViewController.m in Sources */,
+				A93B1A651CB7A1B800E5A177 /* EAFlashCardViewController.m in Sources */,
 				A93B1A281CB79C3F00E5A177 /* main.m in Sources */,
+				A93B1A5C1CB7A17700E5A177 /* EAPaperInfoViewController.m in Sources */,
+				A93B1A6E1CB7A1DF00E5A177 /* EAShareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
